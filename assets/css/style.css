@@ -5,7 +5,6 @@
 
 header {
     position: fixed;
-    border-bottom: 10px solid #5acc73;
 }
 
 header,
@@ -16,10 +15,16 @@ footer {
     background-color: #678dc5;
 }
 
+h1 {
+    position: relative;
+    color: #ffffff;
+}
+
 footer {
     position: relative;
-    margin-top: 10;
+    margin-top: 30;
     bottom: 0;
+    border-top: 10px solid #4F4846;
     border-bottom: 10px solid #4F4846;
     color: #FDF8F5;    
 }
@@ -28,15 +33,16 @@ body {
     position: relative;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
-    background-color: #e4c8b7;
+    background-color: #e7caa3;
     color: #4F4846;
 }
 
 section {
     margin-bottom: 0;
     padding: 20px 10px 40px 10px;
-    border-top: 3px solid #DDAF94;
-    background-color:  #E8CEBF;
+    border-top: 3px solid #3f9e6f;
+    border-bottom: 3px solid #3f9e6f;
+    background-color:  #e7caa3;
 }
 
 li {
@@ -44,10 +50,24 @@ li {
     padding: 20px;
     text-decoration: none;
 }
+
+img {
+    size: 50px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.lucca-pic {
+    height: 500px;
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
   
 a {
     text-decoration: none;
-    color: #FDF8F5;
+    color: #ffffff;
 }
 
 form {
@@ -59,6 +79,11 @@ form {
 
 figure {
     margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+input {
+    width: 500px;
 }
 
 button {
@@ -74,4 +99,10 @@ button {
 
 .text-center {
     text-align: center;
+}
+
+.text-left {
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 5px;
 }

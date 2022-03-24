@@ -7,3 +7,5 @@ header is now in fixed position
 contact form includes input elements as well as a send button
 when contact link is clicked, page is redirected to the contact form
 landing page had image and caption
+fixed Get In Touch on top left of the page
+added a new image

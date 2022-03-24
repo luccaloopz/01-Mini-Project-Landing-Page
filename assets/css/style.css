@@ -7,6 +7,10 @@ header {
     position: fixed;
 }
 
+main {
+    padding: 60px 0;
+  }
+
 header,
 footer {
     height: 60px;
@@ -17,12 +21,12 @@ footer {
 
 h1 {
     position: relative;
-    color: #ffffff;
+    color: #000000;
 }
 
 footer {
     position: relative;
-    margin-top: 30;
+    margin-top: 15;
     bottom: 0;
     border-top: 10px solid #4F4846;
     border-bottom: 10px solid #4F4846;
@@ -79,7 +83,7 @@ form {
 
 figure {
     margin-bottom: 10px;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 input {
@@ -99,10 +103,5 @@ button {
 
 .text-center {
     text-align: center;
-}
-
-.text-left {
-    text-align: left;
-    padding-left: 10px;
-    padding-top: 5px;
+    font-weight: bold;
 }

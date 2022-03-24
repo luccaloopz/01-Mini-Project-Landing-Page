@@ -16,12 +16,56 @@ footer {
     background-color: #678dc5;
 }
 
+footer {
+    position: relative;
+    margin-top: 10;
+    bottom: 0;
+    border-bottom: 10px solid #4F4846;
+    color: #FDF8F5;    
+}
+
 body {
     position: relative;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
-    background-color: #e26e2a;
+    background-color: #e4c8b7;
     color: #4F4846;
+}
+
+section {
+    margin-bottom: 0;
+    padding: 20px 10px 40px 10px;
+    border-top: 3px solid #DDAF94;
+    background-color:  #E8CEBF;
+}
+
+li {
+    display: inline;
+    padding: 20px;
+    text-decoration: none;
+}
+  
+a {
+    text-decoration: none;
+    color: #FDF8F5;
+}
+
+form {
+    margin: 0 auto;
+    width: 500px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+figure {
+    margin-bottom: 10px;
+}
+
+button {
+    height: 40px;
+    width: 120px;
+    background-color: #4F4846;
+    color: #FDF8F5;
 }
   
 .text-right {
